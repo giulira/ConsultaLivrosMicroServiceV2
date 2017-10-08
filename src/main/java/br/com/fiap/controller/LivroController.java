@@ -27,7 +27,7 @@ public class LivroController {
 	
 	@GetMapping("/livroById/{id}")
 	public ResponseEntity<?> find(@PathVariable("id") int id) {
-		System.out.println("Aeeeeeeeeeeeeeeeeeeeee123456");
+		System.out.println("Aeeeeeeeeeeeeeeeeeeeee1234567890");
 		Livro livro = livroDAO.getLivroById(id);
 		if (livro == null) {
 			return new ResponseEntity<>("Livro não existe com id: " + id, HttpStatus.NOT_FOUND);
