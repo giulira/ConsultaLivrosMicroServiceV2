@@ -62,7 +62,8 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<build>
+	<build>		
+		<finalName>consultaLivros-micro-servico</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
